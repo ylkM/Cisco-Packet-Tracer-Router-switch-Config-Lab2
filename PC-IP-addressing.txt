@@ -1,1 +1,19 @@
+PC1
+IP Address: 172.16.0.1
+Subnet Mask: 255.255.0.0
+Default Gateway: 172.16.0.254
 
+PC2
+IP Address: 172.16.0.2
+Subnet Mask: 255.255.0.0
+Default Gateway: 172.16.0.254
+
+PC3
+IP Address: 172.16.0.3
+Subnet Mask: 255.255.0.0
+Default Gateway: 172.16.0.254
+
+PC4
+IP Address: 172.16.0.4
+Subnet Mask: 255.255.0.0
+Default Gateway: 172.16.0.254
