@@ -1,11 +1,13 @@
 # PC IP Addressing
- Network: 172.16.0.0/16
- Default gateway: 172.16.0.254
- Subnet mask 255.255.0.0
-
- PC1: 172.16.0.1 /16
- PC2: 172.16.0.2 /16
- PC3: 172.16.0.3 /16
- PC4: 172.16.0.4 /16
-
-
+# Network: 172.16.0.0/16
+# Default gateway: 172.16.0.254
+#
+# PC1: 172.16.0.1 /16
+# PC2: 172.16.0.2 /16
+# PC3: 172.16.0.3 /16
+# PC4: 172.16.0.4 /16
+#
+# Packet Tracer:
+# Desktop > IP Configuration > Static
+# Enter the corresponding IP address, subnet mask 255.255.0.0,
+# and default gateway 172.16.0.254.
