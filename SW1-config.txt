@@ -19,11 +19,11 @@ interface GigabitEthernet0/2
 !
 interface FastEthernet0/1
  description TO-PC1-Fa0
- no shutdown
+ 
 !
 interface FastEthernet0/2
  description TO-PC2-Fa0
- no shutdown
+ 
 !
 interface range FastEthernet0/3 - 24
  shutdown
