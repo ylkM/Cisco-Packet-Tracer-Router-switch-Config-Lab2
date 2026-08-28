@@ -1,9 +1,29 @@
-SW2
-
-SW2 connects SW1, PC3, and PC4.
-
-Connections:
-
-Gi0/1 → SW1
-Fa0/1 → PC3
-Fa0/2 → PC4
+!
+! SW2 - Basic LAN Configuration
+!
+enable
+configure terminal
+hostname SW2
+!
+interface GigabitEthernet0/1
+ description TO-SW1-Gi0/2
+ speed 1000
+ duplex full
+ no shutdown
+!
+interface FastEthernet0/1
+ description TO-PC3-Fa0
+ no shutdown
+!
+interface FastEthernet0/2
+ description TO-PC4-Fa0
+ no shutdown
+!
+interface range FastEthernet0/3 - 24
+ shutdown
+!
+interface GigabitEthernet0/2
+ shutdown
+!
+end
+copy running-config startup-config
