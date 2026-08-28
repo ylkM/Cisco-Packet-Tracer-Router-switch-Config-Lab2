@@ -1,11 +1,27 @@
-R1
-
-The router was configured with:
-
-Hostname: R1
-IP address: 172.16.0.254/16
-GigabitEthernet0/0 connected to SW1
-Manual speed and duplex configuration
-Interface description
-Unused interfaces disabled
-
+!
+! R1 - Basic LAN Configuration
+! Network: 172.16.0.0/16
+!
+enable
+configure terminal
+hostname R1
+!
+interface GigabitEthernet0/0
+ description TO-SW1-Gi0/1
+ ip address 172.16.0.254 255.255.0.0
+ speed 1000
+ duplex full
+ no shutdown
+!
+! Disable unused interfaces
+interface GigabitEthernet0/1
+ shutdown
+!
+interface GigabitEthernet0/2
+ shutdown
+!
+interface GigabitEthernet0/3
+ shutdown
+!
+end
+copy running-config startup-config
