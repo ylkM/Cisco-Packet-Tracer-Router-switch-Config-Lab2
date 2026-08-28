@@ -9,6 +9,3 @@ Manual speed and duplex configuration
 Interface description
 Unused interfaces disabled
 
-Configuration file:
-
-R1-config.txt
