@@ -1,1 +1,10 @@
+SW1
 
+SW1 connects R1, PC1, PC2, and SW2.
+
+Connections:
+
+Gi0/1 → R1
+Gi0/2 → SW2
+Fa0/1 → PC1
+Fa0/2 → PC2
