@@ -72,6 +72,3 @@ show interfaces status
 show running-config
 ```
 
-## Note
-
-The switch configurations assume a Cisco 2960-style interface layout with `Fa0/1–Fa0/24` and `Gi0/1–Gi0/2`, matching the supplied topology. The Packet Tracer `.pkt` file itself must be created/saved in Cisco Packet Tracer; these files are the GitHub-ready configuration/documentation package.
