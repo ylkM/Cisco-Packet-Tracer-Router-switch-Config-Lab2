@@ -1,11 +1,48 @@
-# Project Overview
-A Cisco Packet Tracer basic LAN configuration project based on the supplied topology. The network uses the 172.16.0.0/16 address space and includes one router, two switches, and four PCs.
-Topology
-R1 connects to SW1. SW1 connects to PC1, PC2, and SW2. SW2 connects to PC3 and PC4.
+# Cisco Basic LAN – Router & Switch Configuration
 
-## Device	Interface	IP Address	Subnet Mask	Default Gateway
-R1	G0/0	172.16.0.254	255.255.0.0	—
-PC1	Fa0	172.16.0.1	255.255.0.0	172.16.0.254
-PC2	Fa0	172.16.0.2	255.255.0.0	172.16.0.254
-PC3	Fa0	172.16.0.3	255.255.0.0	172.16.0.254
-PC4	Fa0	172.16.0.4	255.255.0.0	172.16.0.254
+## Project Overview
+
+This project is a basic Cisco LAN configuration completed in Cisco Packet Tracer.
+
+The topology includes:
+
+- 1 Cisco Router (R1)
+- 2 Cisco Switches (SW1 and SW2)
+- 4 PCs (PC1–PC4)
+- Network: 172.16.0.0/16
+
+The project focuses on basic Cisco IOS configuration, IP addressing, interface configuration, and network connectivity.
+
+---
+
+## Network Topology
+
+`
+                         172.16.0.0/16
+                              |
+                         R1 G0/0
+                     172.16.0.254/16
+                              |
+                         SW1 G0/1
+                              |
+                +-------------+-------------+
+                |                           |
+            SW1 Fa0/1                   SW1 Fa0/2
+                |                           |
+              PC1                         PC2
+        172.16.0.1/16              172.16.0.2/16
+
+
+                         SW1 G0/2
+                              |
+                         SW2 G0/1
+                         /         \
+                        /           \
+                   Fa0/1           Fa0/2
+                     |               |
+                    PC3             PC4
+             172.16.0.3/16   172.16.0.4/16
+
+
+
+            
