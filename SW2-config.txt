@@ -1,1 +1,9 @@
+SW2
 
+SW2 connects SW1, PC3, and PC4.
+
+Connections:
+
+Gi0/1 → SW1
+Fa0/1 → PC3
+Fa0/2 → PC4
