@@ -1,6 +1,6 @@
 # Cisco Basic LAN – Router & Switch Configuration
 
-A GitHub-ready Cisco Packet Tracer configuration based on the supplied topology.
+
 
 ## Topology
 
