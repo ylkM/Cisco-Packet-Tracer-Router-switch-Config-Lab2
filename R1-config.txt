@@ -1,1 +1,14 @@
+R1
 
+The router was configured with:
+
+Hostname: R1
+IP address: 172.16.0.254/16
+GigabitEthernet0/0 connected to SW1
+Manual speed and duplex configuration
+Interface description
+Unused interfaces disabled
+
+Configuration file:
+
+R1-config.txt
